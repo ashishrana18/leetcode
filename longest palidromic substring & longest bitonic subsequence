@@ -9,7 +9,7 @@ solve like longest palindromic subsequence with substring change, and a addition
 second, go to each index and start expanding from that index
 either palindrome can be even sized or odd sized, take both and compare which is larger
 
-`class Solution {
+```class Solution {
     public String palindrome(String s,int left,int right){ //palindrome func.
         int n=s.length();
         while(left>=0 && right<n && s.charAt(left)==s.charAt(right)){
@@ -30,7 +30,7 @@ either palindrome can be even sized or odd sized, take both and compare which is
         }
         return max;
     }
-}`
+}```
 
 same for longest bitonic subsequence,
 its like a mountain structure, first strictly increasing then strictly decreasing, from same index, it should start decreasing
