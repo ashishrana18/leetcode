@@ -1,0 +1,5 @@
+##approach :
+find first and last occurence of each char in string, and find unique characters between two same characters.
+like abcda
+for a, first[a]=0, last[a]=4;
+find all unique chars, in between first and last occurence of s.charAt(i) for each i;
